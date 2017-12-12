@@ -1,3 +1,4 @@
+ENV['RACK_ENV'] = 'test'
 require 'sinatra'
 require 'capybara/rspec'
 require 'rspec'
