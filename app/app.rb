@@ -1,5 +1,6 @@
 ENV["RACK_ENV"] ||= "development"
 
+require_relative 'data_mapper'
 require 'sinatra/base'
 require_relative './models/link.rb'
 
